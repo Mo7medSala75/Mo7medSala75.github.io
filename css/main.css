@@ -1,6 +1,5 @@
 /* =================================================================== 
  *
- *  Dazzle v1.0 Main Stylesheet
  *  04-27-2017
  *  ------------------------------------------------------------------
  *
@@ -1161,7 +1160,7 @@ h1.intro-header::before {
   font-size: 1.4rem;
   text-transform: uppercase;
   letter-spacing: .2rem;
-  color: rgba(255, 255, 255, 0.5);
+  color: #db8428;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
@@ -1181,7 +1180,7 @@ h1.intro-header::before {
   top: 50%;
   right: auto;
   bottom: auto;
-  background-color: rgb(255, 255, 255);
+  background-color: #db8428;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
   font: 0/0 a;
@@ -1210,14 +1209,14 @@ h1.intro-header::before {
 }
 
 .header-menu-toggle.is-clicked span {
-  background-color: rgba(255, 255, 255, 0);
+  background-color: white;
   -webkit-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
 }
 
 .header-menu-toggle.is-clicked span::before,
 .header-menu-toggle.is-clicked span::after {
-  background-color: white;
+  background-color: #40899c;
 }
 
 .header-menu-toggle.is-clicked span::before {
